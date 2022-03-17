@@ -1,11 +1,28 @@
 /* Add your code in each class */
 .container {
+  margin: 10px;
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
+  
 }
 .head {
+
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: sticky;
+   top: 0;
+ 
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: rgba(189, 189, 189, 0.486);
+  color: rgb(0, 0, 0);
 }
 
 /* This is a gift - Does not need editing */

@@ -1,15 +1,39 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(48, 2, 48);
 }
 .container {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 .movie-card {
+  margin: 0;
+  width: 300px;
+
+  position: relative;
 }
 .movie-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  object-fit: contain;
+
+  width: 100%;
 }
 .movie-details-container {
+  width: 100%;
 }
 .descriptions {
+  position: relative;
+  padding-top: 120%;
+  text-align: center;
+  color: white;
 }
 
 /*A gift from us!*/
