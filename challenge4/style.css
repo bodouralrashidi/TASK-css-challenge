@@ -4,7 +4,6 @@ body {
 }
 .container {
   height: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +21,8 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: 10% 20%;
 
   width: 100%;
 }
@@ -31,7 +31,7 @@ body {
 }
 .descriptions {
   position: relative;
-  padding-top: 120%;
+  padding-top: 100%;
   text-align: center;
   color: white;
 }
@@ -52,4 +52,6 @@ body {
   );
 }
 .movie-title {
+  font-weight: 300;
+  font-size: 30px;
 }
